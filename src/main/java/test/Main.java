@@ -10,28 +10,10 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		// ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
-
-		//ApplicationContext ctx = new ClassPathXmlApplicationContext("serviceActivator.xml");
-
-		//ApplicationContext ctx = new ClassPathXmlApplicationContext("routing.xml");
-
-		ApplicationContext ctx = new ClassPathXmlApplicationContext("aggragate.xml");
-
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("channels.xml");
 		/*
-		ApplicationContext ctx = new ClassPathXmlApplicationContext("javaScriptService.xml");
-
-		MyGateway myGateway= (MyGateway)ctx.getBean("gateWayService");
-		myGateway.method("Salut !");
-		*/
-
-
-		/*ApplicationContext ctx = new ClassPathXmlApplicationContext("webServiceCalling.xml");
-
 		MyGateway myGateway= (MyGateway)ctx.getBean("gateWayService");
 		myGateway.method("Salut !");*/
-
-
 
 		/*ApplicationContext ctx = new ClassPathXmlApplicationContext("database.xml");
 
